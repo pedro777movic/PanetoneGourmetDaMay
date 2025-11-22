@@ -1,0 +1,49 @@
+import { Button } from "@/components/ui/button";
+import { CheckCircle2 } from "lucide-react";
+
+const microSeals = [
+  "Acesso imediato",
+  "Vídeos em alta qualidade",
+  "Técnicas profissionais",
+  "Receita base + recheios premium",
+  "Perfeito para aprender ou lucrar no Natal",
+];
+
+export function HeroSection() {
+  return (
+    <section id="hero" className="relative w-full py-20 md:py-32 lg:py-40 bg-cover bg-center bg-[url('https://picsum.photos/seed/hero-panettone/1200/800')]">
+      <div className="absolute inset-0 bg-black/50" />
+      <div className="container relative px-4 md:px-6 text-center text-white">
+        <div className="max-w-3xl mx-auto space-y-6">
+          <h1 className="text-4xl font-headline font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-shadow-lg">
+            🎄 Aprenda a Criar O Panetone Gourmet Que Virou Obsessão Neste Natal
+          </h1>
+          <p className="text-lg md:text-xl text-gray-200">
+            Com recheios tão cremosos que parecem proibidos. Agora, pela primeira vez, a May revela o passo a passo completo dentro de um APP exclusivo.
+          </p>
+          
+          <div className="bg-black/30 backdrop-blur-sm p-4 rounded-lg border border-white/20">
+            <h2 className="text-xl font-bold">Não é só um curso.</h2>
+            <p className="text-base">É um aplicativo premium com vídeos, receitas, técnicas e segredos completos para você criar panetones absurdamente cremosos — e até vender se quiser.</p>
+          </div>
+
+          <Button
+            size="lg"
+            className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold py-8 px-12 rounded-full shadow-2xl transform hover:scale-105 transition-transform"
+          >
+            👉 Quero Acessar o APP Agora
+          </Button>
+
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 pt-6">
+            {microSeals.map((seal) => (
+              <div key={seal} className="flex items-center gap-2 text-sm">
+                <CheckCircle2 className="h-5 w-5 text-accent" />
+                <span>{seal}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

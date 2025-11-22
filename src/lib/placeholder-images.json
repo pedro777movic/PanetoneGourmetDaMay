@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-panettone",
+      "description": "A beautiful gourmet panettone on a festive background.",
+      "imageUrl": "https://images.unsplash.com/photo-1509727090451-6052b6d62425?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5ldHRvbmUlMjBjaHJpc3RtYXN8ZW58MHx8fHwxNzYzODIyNjA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "panettone christmas"
+    },
+    {
+      "id": "proof-1",
+      "description": "A close-up shot of a panettone slice showing its creamy filling.",
+      "imageUrl": "https://images.unsplash.com/photo-1574343405781-2537184dd0f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYW5ldHRvbmUlMjBzbGljZXxlbnwwfHx8fDE3NjM4MjI2MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "panettone slice"
+    },
+    {
+      "id": "proof-2",
+      "description": "Another panettone overflowing with a delicious looking filling.",
+      "imageUrl": "https://images.unsplash.com/photo-1736752346246-61f4daedfde0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjcmVhbXklMjBwYW5ldHRvbmV8ZW58MHx8fHwxNzYzODIyNjA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creamy panettone"
+    },
+    {
+      "id": "video-thumbnail",
+      "description": "A thumbnail for a video showing a panettone being cut.",
+      "imageUrl": "https://images.unsplash.com/photo-1582072291448-5db861a71699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5ldHRvbmUlMjB2aWRlb3xlbnwwfHx8fDE3NjM4MjI2MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "panettone video"
+    },
+    {
+      "id": "flavor-brigadeiro",
+      "description": "A gourmet panettone with rich brigadeiro filling.",
+      "imageUrl": "https://images.unsplash.com/photo-1669385185295-a96157e05a34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaG9jb2xhdGUlMjBwYW5ldHRvbmV8ZW58MHx8fHwxNzYzODIyNjA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate panettone"
+    },
+    {
+      "id": "flavor-ninho",
+      "description": "A gourmet panettone with ninho and nutella filling.",
+      "imageUrl": "https://images.unsplash.com/photo-1761751807447-a76f2aabdd9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxudXRlbGxhJTIwcGFuZXR0b25lfGVufDB8fHx8MTc2MzgyMjYwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nutella panettone"
+    },
+    {
+      "id": "flavor-oreo",
+      "description": "A gourmet panettone with oreo cream filling.",
+      "imageUrl": "https://images.unsplash.com/photo-1719230767180-4bf3e002bea5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcmVvJTIwcGFuZXR0b25lfGVufDB8fHx8MTc2MzgyMjYwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oreo panettone"
+    }
+  ]
 }
