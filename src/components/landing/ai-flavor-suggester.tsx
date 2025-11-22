@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { getFlavorSuggestions } from '@/ai/flows/ai-powered-flavor-suggestions';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -10,7 +11,7 @@ import { Loader2, Wand2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { useEffect } from 'react';
 
-// Define the action function that will be used in useFormState
+// Define the action function that will be used in useActionState
 async function formAction(prevState: any, formData: FormData) {
   const preferences = formData.get('preferences') as string;
   const ingredients = formData.get('ingredients') as string;
@@ -49,7 +50,7 @@ function SubmitButton() {
 export function AiFlavorSuggester() {
   const { toast } = useToast();
   const initialState = { suggestions: '', error: null };
-  const [state, dispatch] = useFormState(formAction, initialState);
+  const [state, dispatch] = useActionState(formAction, initialState);
 
   useEffect(() => {
     if (state.error) {
