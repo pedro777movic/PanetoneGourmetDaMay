@@ -12,7 +12,7 @@ const microSeals = [
 
 export function HeroSection() {
   return (
-    <section id="hero" className="relative w-full py-20 md:py-32 lg:py-40 bg-cover bg-center bg-[url('https://picsum.photos/seed/hero-panettone/1200/800')]">
+    <section id="hero" className="relative w-full py-20 md:py-32 lg:py-40 bg-cover bg-center bg-[url('https://i.postimg.cc/BbRRGFSQ/3.png')]">
       <div className="absolute inset-0 bg-black/50" />
       <div className="container relative px-4 md:px-6 text-white">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
