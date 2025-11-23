@@ -45,8 +45,8 @@ export function PricingSection() {
                     <CardContent className="py-8 text-center">
                         <div className="space-y-2">
                             <p className="text-lg line-through text-muted-foreground">De R$197,00</p>
-                            <p className="text-5xl font-bold text-primary">R$67,00</p>
-                            <p className="text-muted-foreground">ou 12x de R$6,73 no cartão</p>
+                            <p className="text-5xl font-bold text-primary">R$43,90</p>
+                            <p className="text-muted-foreground">ou 10x de R$4,98 no cartão</p>
                         </div>
                     </CardContent>
                     <CardFooter>
