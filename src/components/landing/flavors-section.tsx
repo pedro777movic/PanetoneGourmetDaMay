@@ -30,7 +30,7 @@ export function FlavorsSection() {
               Os Sabores Que Você Vai Aprender
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Cada receita foi desenhada para criar uma experiência inesquecível. Além destes, você também aprende a receita base, a técnica universal de recheio e a finalização perfeita.
+              Cada receita foi desenhada para criar uma experiência inesquecível. Além destes, você também aprende a receita base, a técnica universal de recheio e a finalização perfeita. São mais de 7 sabores para você vender muito neste Natal.
             </p>
           </div>
         </div>
