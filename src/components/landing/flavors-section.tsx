@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const flavors = [
   {
     id: "flavor-brigadeiro",
-    title: "🍫 Brigadeiro Trufado Explosion",
+    title: "🍫 Brigadeiro e Kitkat",
     description: "O clássico que extermina qualquer panetone de mercado. Recheio triplo. Brilho intenso. Textura absurda.",
   },
   {
