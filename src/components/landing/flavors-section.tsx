@@ -15,7 +15,7 @@ const flavors = [
   },
   {
     id: "flavor-oreo",
-    title: "🍪 Oreo Black Cream",
+    title: "💚 Brigadeiro de Pistache",
     description: "Crocante, cremoso e totalmente viciante. A combinação perfeita de textura + intensidade.",
   },
 ];
