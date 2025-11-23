@@ -41,23 +41,6 @@ export function VisualProofSection() {
             )}
           </div>
           <div className="flex flex-col justify-center space-y-6">
-            {videoThumbnail && (
-                <Card className="overflow-hidden shadow-2xl group cursor-pointer">
-                    <div className="relative">
-                        <Image
-                            src={videoThumbnail.imageUrl}
-                            alt={videoThumbnail.description}
-                            data-ai-hint={videoThumbnail.imageHint}
-                            width={1280}
-                            height={720}
-                            className="object-cover w-full aspect-video transition-transform duration-300 group-hover:scale-110"
-                        />
-                        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                            <PlayCircle className="h-20 w-20 text-white/80 group-hover:text-white transition-colors" />
-                        </div>
-                    </div>
-                </Card>
-            )}
             <div className="space-y-4">
               {testimonials.map((testimonial, index) => (
                 <Card key={index} className="bg-secondary/50 border-l-4 border-accent">
