@@ -10,7 +10,7 @@ const flavors = [
   },
   {
     id: "flavor-ninho",
-    title: "🥛 Ninho com Nutella Premium",
+    title: "🍫 Brownietone",
     description: "O casamento mais viciante do Natal. Cremosidade no nível máximo. Na primeira colher, você entende o porquê.",
   },
   {
