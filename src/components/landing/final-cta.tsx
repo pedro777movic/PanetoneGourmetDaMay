@@ -15,7 +15,7 @@ export function FinalCta() {
           size="lg"
           className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold py-8 px-12 rounded-full shadow-2xl transform hover:scale-105 transition-transform"
         >
-          <a href="#pricing">
+          <a href="#checkout-button">
             👉 Quero Acessar o APP Agora
           </a>
         </Button>

@@ -49,7 +49,7 @@ export function PricingSection() {
                             <p className="text-muted-foreground">ou 10x de R$4,39 no cartão</p>
                         </div>
                     </CardContent>
-                    <CardFooter>
+                    <CardFooter id="checkout-button">
                         <Button asChild size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold py-7 shadow-lg">
                            <a href="https://pay.cakto.com.br/9wv9juh_665967">
                             👉 Quero Acessar o APP Agora e Aprender as Receitas Premium
