@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, Cake } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 
 const microSeals = [
@@ -16,10 +16,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-black/50" />
       <div className="container relative px-4 md:px-6 text-white">
         <div className="flex justify-center mb-12">
-            <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm p-3 rounded-full border border-white/20">
-                <Cake className="h-8 w-8 text-accent" />
-                <span className="text-xl font-headline font-bold text-white">Panetone Gourmet da May</span>
-            </div>
+            <span className="text-2xl font-headline font-bold text-white">Panetone Gourmet da May</span>
         </div>
         <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div className="flex justify-center">
