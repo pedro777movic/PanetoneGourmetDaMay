@@ -12,12 +12,12 @@ const microSeals = [
 
 export function HeroSection() {
   return (
-    <section id="hero" className="relative w-full pt-12 pb-20 md:py-32 lg:py-40 bg-cover bg-center bg-[url('https://i.postimg.cc/BbRRGFSQ/3.png')]">
+    <section id="hero" className="relative w-full pt-24 pb-20 md:pt-32 lg:pt-40 bg-cover bg-center bg-[url('https://i.postimg.cc/BbRRGFSQ/3.png')]">
       <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute top-8 left-1/2 -translate-x-1/2 z-10">
+        <span className="text-4xl font-headline font-bold text-white">Panetone Gourmet da May</span>
+      </div>
       <div className="relative text-white">
-        <div className="flex justify-center mb-12">
-            <span className="text-4xl font-headline font-bold text-white">Panetone Gourmet da May</span>
-        </div>
         <div className="container px-4 md:px-6">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
                 <div className="flex justify-center">
