@@ -11,10 +11,13 @@ export function FinalCta() {
           Acesso limitado. Alta demanda. Natal chegando.
         </p>
         <Button
+          asChild
           size="lg"
           className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold py-8 px-12 rounded-full shadow-2xl transform hover:scale-105 transition-transform"
         >
-          👉 Quero Acessar o APP Agora
+          <a href="#pricing">
+            👉 Quero Acessar o APP Agora
+          </a>
         </Button>
       </div>
     </section>

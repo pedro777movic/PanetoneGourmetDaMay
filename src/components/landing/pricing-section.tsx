@@ -50,8 +50,10 @@ export function PricingSection() {
                         </div>
                     </CardContent>
                     <CardFooter>
-                        <Button size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold py-7 shadow-lg">
-                           👉 Quero Acessar o APP Agora e Aprender as Receitas Premium
+                        <Button asChild size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold py-7 shadow-lg">
+                           <a href="#pricing">
+                            👉 Quero Acessar o APP Agora e Aprender as Receitas Premium
+                           </a>
                         </Button>
                     </CardFooter>
                 </Card>
