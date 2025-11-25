@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-black/50" />
       <div className="container relative px-4 md:px-6 text-white">
         <div className="flex justify-center mb-12">
-            <span className="text-2xl font-headline font-bold text-white">Panetone Gourmet da May</span>
+            <span className="text-4xl font-headline font-bold text-accent">Panetone Gourmet da May</span>
         </div>
         <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div className="flex justify-center">
