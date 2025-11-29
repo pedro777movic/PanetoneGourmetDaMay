@@ -2,7 +2,7 @@ import { BadgePercent, BookText, ChefHat, InfinityIcon, ListChecks, Sparkles, Vi
 
 const features = [
   { icon: Video, text: "Aulas em vídeo ensinando passo a passo" },
-  { icon: BookText, text: "Receitas detalhadas da massa e dos recheios" },
+  { icon: BookText, text: "Mais de 7 receitas detalhadas da massa e dos recheios" },
   { icon: Sparkles, text: "Segredos de textura e cremosidade" },
   { icon: ChefHat, text: "Técnicas de confeitaria premium" },
   { icon: BadgePercent, text: "Módulo bônus: como vender e lucrar no Natal" },
