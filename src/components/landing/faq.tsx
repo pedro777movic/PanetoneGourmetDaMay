@@ -38,7 +38,7 @@ export function Faq() {
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl space-y-8">
             <div className="text-center space-y-2">
-                <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl text-primary">
+                <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
                     Perguntas Frequentes
                 </h2>
                 <p className="text-muted-foreground md:text-xl">Respostas diretas para suas dúvidas.</p>
@@ -46,8 +46,8 @@ export function Faq() {
             <Accordion type="single" collapsible className="w-full">
                 {faqItems.map((item, index) => (
                     <AccordionItem key={index} value={`item-${index}`}>
-                        <AccordionTrigger className="text-lg font-bold text-left">{item.question}</AccordionTrigger>
-                        <AccordionContent className="text-base text-muted-foreground">
+                        <AccordionTrigger className="text-md md:text-lg font-bold text-left">{item.question}</AccordionTrigger>
+                        <AccordionContent className="text-sm md:text-base text-muted-foreground">
                             {item.answer}
                         </AccordionContent>
                     </AccordionItem>
