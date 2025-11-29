@@ -50,7 +50,7 @@ export function PricingSection() {
                         </div>
                     </CardContent>
                     <CardFooter id="checkout-button">
-                        <Button asChild size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90 text-md md:text-lg font-bold py-7 shadow-lg">
+                        <Button asChild size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90 text-md md:text-lg font-bold py-7 shadow-lg whitespace-normal h-auto">
                            <a href="https://pay.cakto.com.br/9wv9juh_665967">
                             👉 Quero Acessar o APP Agora e Aprender as Receitas Premium
                            </a>
