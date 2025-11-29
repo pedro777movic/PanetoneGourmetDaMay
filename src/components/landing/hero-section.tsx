@@ -21,7 +21,7 @@ export function HeroSection() {
         <div className="container px-4 md:px-6">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
                 <div className="flex justify-center">
-                    <Image src="https://i.postimg.cc/sgNVh4WZ/Generated-Image-November-22-2025-10-06PM.png" alt="Panetone Gourmet" width={400} height={400} className="rounded-lg shadow-2xl w-[300px] h-[300px] md:w-[400px] md:h-[400px]" />
+                    <Image src="https://i.postimg.cc/sgNVh4WZ/Generated-Image-November-22-2025-10-06PM.png" alt="Panetone Gourmet" width={500} height={500} className="rounded-lg shadow-2xl w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover" />
                 </div>
                 <div className="max-w-3xl space-y-6 text-center lg:text-left mx-auto">
                     <h1 className="text-4xl font-headline font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-shadow-lg">
