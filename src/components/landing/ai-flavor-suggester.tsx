@@ -78,7 +78,7 @@ export function AiFlavorSuggester() {
         <form action={dispatch} className="space-y-6">
           <div className="grid md:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <Label htmlFor="preferences" className="font-semibold">Suas preferências de sabor</Label>
+              <Label htmlFor="preferences" className="font-semibold text-left">Suas preferências de sabor</Label>
               <Textarea
                 id="preferences"
                 name="preferences"
@@ -87,7 +87,7 @@ export function AiFlavorSuggester() {
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="ingredients" className="font-semibold">Ingredientes que você tem</Label>
+              <Label htmlFor="ingredients" className="font-semibold text-left">Ingredientes que você tem</Label>
               <Textarea
                 id="ingredients"
                 name="ingredients"
@@ -102,7 +102,7 @@ export function AiFlavorSuggester() {
         {suggestionList.length > 0 && (
           <div className="mt-8">
             <h3 className="text-lg md:text-xl font-headline text-center mb-4 text-primary">Sugestões para você:</h3>
-            <div className="rounded-lg border bg-card p-4 md:p-6">
+            <div className="rounded-lg border bg-card p-4 md:p-6 text-left">
                 <ul className="list-disc list-inside space-y-2">
                 {suggestionList.map((suggestion, index) => (
                     <li key={index} className="text-sm md:text-md">{suggestion}</li>
