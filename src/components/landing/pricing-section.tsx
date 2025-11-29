@@ -26,7 +26,7 @@ export function PricingSection() {
             <div className="lg:col-span-2 space-y-4 text-center lg:text-left">
                 <h3 className="text-xl md:text-2xl font-bold">Você não está comprando um panetone.</h3>
                 <p className="text-muted-foreground">Você está comprando o domínio de uma técnica premium que pode:</p>
-                <ul className="space-y-2 inline-block text-left mx-auto lg:mx-0">
+                <ul className="space-y-2 mx-auto lg:mx-0 inline-block text-left">
                     {valueProps.map(prop => (
                         <li key={prop} className="flex items-center gap-2 text-sm md:text-base">
                             <Check className="h-5 w-5 text-green-500" />
@@ -36,8 +36,8 @@ export function PricingSection() {
                 </ul>
                 <p className="text-xs md:text-sm text-muted-foreground pt-4">Enquanto um panetone gourmet custa R$ 80 a R$ 150, aqui você aprende a fazer panetones ilimitados por uma fração do preço.</p>
             </div>
-            <div className="lg:col-span-3">
-                 <Card className="shadow-2xl border-2 border-accent lg:transform lg:scale-105">
+            <div className="lg:col-span-3 flex justify-center">
+                 <Card className="shadow-2xl border-2 border-accent lg:transform lg:scale-105 w-full">
                     <CardHeader className="text-center bg-primary/5 rounded-t-lg">
                         <CardTitle className="text-xl md:text-2xl font-headline">Acesso Completo ao APP</CardTitle>
                         <CardDescription>Receitas. Técnicas. Segredos.</CardDescription>
