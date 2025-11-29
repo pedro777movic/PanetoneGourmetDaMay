@@ -17,11 +17,11 @@ export function VisualProofSection() {
   return (
     <section id="visual-proof" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
-        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
             {proofImage1 && (
               <Image
-                src={proofImage1.imageUrl}
+                src={"https://i.postimg.cc/nLM1SDCf/Design-sem-nome-(10).png"}
                 alt={proofImage1.description}
                 data-ai-hint={proofImage1.imageHint}
                 width={600}
@@ -31,7 +31,7 @@ export function VisualProofSection() {
             )}
              {proofImage2 && (
               <Image
-                src={proofImage2.imageUrl}
+                src={"https://i.postimg.cc/wBPQCjmW/Design-sem-nome-(11).png"}
                 alt={proofImage2.description}
                 data-ai-hint={proofImage2.imageHint}
                 width={600}
@@ -45,7 +45,7 @@ export function VisualProofSection() {
               {testimonials.map((testimonial, index) => (
                 <Card key={index} className="bg-secondary/50 border-l-4 border-accent">
                   <CardContent className="p-4">
-                    <p className="text-lg font-semibold italic">⭐ "{testimonial.quote}"</p>
+                    <p className="text-lg font-semibold italic text-center">⭐ "{testimonial.quote}"</p>
                   </CardContent>
                 </Card>
               ))}

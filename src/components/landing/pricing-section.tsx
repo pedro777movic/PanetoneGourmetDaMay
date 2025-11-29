@@ -15,18 +15,18 @@ export function PricingSection() {
     <section id="pricing" className="w-full">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary text-center">
             Muito Mais Barato Que Comprar 1 Panetone Gourmet
           </h2>
-          <p className="max-w-[900px] text-muted-foreground text-base md:text-xl/relaxed">
+          <p className="max-w-[900px] text-muted-foreground text-base md:text-xl/relaxed text-center">
             E você aprende a fazer quantos quiser.
           </p>
         </div>
         <div className="grid lg:grid-cols-5 gap-8 items-center max-w-6xl mx-auto py-12">
-            <div className="lg:col-span-2 space-y-4">
+            <div className="lg:col-span-2 space-y-4 text-center lg:text-left">
                 <h3 className="text-xl md:text-2xl font-bold">Você não está comprando um panetone.</h3>
                 <p className="text-muted-foreground">Você está comprando o domínio de uma técnica premium que pode:</p>
-                <ul className="space-y-2">
+                <ul className="space-y-2 inline-block text-left">
                     {valueProps.map(prop => (
                         <li key={prop} className="flex items-center gap-2 text-sm md:text-base">
                             <Check className="h-5 w-5 text-green-500" />

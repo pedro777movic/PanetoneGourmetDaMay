@@ -26,10 +26,10 @@ export function FlavorsSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary text-center">
               Alguns Dos Sabores Que Você Vai Aprender
             </h2>
-            <p className="max-w-[900px] text-muted-foreground text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
               Cada receita foi desenhada para criar uma experiência inesquecível. Além destes, você também aprende a receita base, a técnica universal de recheio e a finalização perfeita. São mais de 7 sabores para você vender muito neste Natal.
             </p>
           </div>

@@ -14,14 +14,14 @@ export function ImpactSection() {
     <section id="impact" className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-6 max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter sm:text-5xl text-accent">
+          <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tighter sm:text-5xl text-accent text-center">
             ⚡ Isso Não É Um Curso — É O MAPA DEFINITIVO Dos Panetones Gourmet
           </h2>
-          <p className="text-base md:text-lg">
+          <p className="text-base md:text-lg text-center">
             O APP Panetone Gourmet da May te ensina a fazer panetones tão cremosos, tão carregados e tão premium que humilham qualquer panetone industrial.
           </p>
           <div className="text-left bg-black/20 p-6 rounded-lg">
-              <h3 className="text-xl md:text-2xl font-bold mb-4">Você vai aprender:</h3>
+              <h3 className="text-xl md:text-2xl font-bold mb-4 text-center">Você vai aprender:</h3>
               <ul className="space-y-3">
                   {learnings.map(item => (
                     <li key={item} className="flex items-start gap-3">
@@ -31,7 +31,7 @@ export function ImpactSection() {
                   ))}
               </ul>
           </div>
-          <p className="text-base md:text-lg font-bold">
+          <p className="text-base md:text-lg font-bold text-center">
             Não é só receita. É técnica, processo, execução, segredo profissional. Se você quer criar panetones gourmet de verdade — está no único lugar onde isso é possível.
           </p>
         </div>

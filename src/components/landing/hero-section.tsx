@@ -15,7 +15,7 @@ export function HeroSection() {
     <section id="hero" className="relative w-full pt-24 pb-20 md:pt-32 lg:pt-40 bg-cover bg-center bg-[url('https://i.postimg.cc/BbRRGFSQ/3.png')]">
       <div className="absolute inset-0 bg-black/50" />
       <div className="absolute top-8 left-1/2 -translate-x-1/2 z-10">
-        <span className="text-2xl md:text-4xl font-headline font-bold text-white">Panetone Gourmet da May</span>
+        <span className="text-4xl font-headline font-bold text-white">Panetone Gourmet da May</span>
       </div>
       <div className="relative text-white">
         <div className="container px-4 md:px-6">
@@ -23,7 +23,7 @@ export function HeroSection() {
                 <div className="flex justify-center">
                     <Image src="https://i.postimg.cc/sgNVh4WZ/Generated-Image-November-22-2025-10-06PM.png" alt="Panetone Gourmet" width={400} height={400} className="rounded-lg shadow-2xl w-[300px] h-[300px] md:w-[400px] md:h-[400px]" />
                 </div>
-                <div className="max-w-3xl space-y-6 text-center lg:text-left">
+                <div className="max-w-3xl space-y-6 text-center lg:text-left mx-auto">
                     <h1 className="text-4xl font-headline font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-shadow-lg">
                     🎄 Aprenda a Criar O Panetone Gourmet Que Virou Obsessão Neste Natal
                     </h1>
