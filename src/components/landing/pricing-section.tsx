@@ -26,7 +26,7 @@ export function PricingSection() {
             <div className="lg:col-span-2 space-y-4 text-center lg:text-left">
                 <h3 className="text-xl md:text-2xl font-bold">Você não está comprando um panetone.</h3>
                 <p className="text-muted-foreground">Você está comprando o domínio de uma técnica premium que pode:</p>
-                <ul className="space-y-2 inline-block text-left">
+                <ul className="space-y-2 inline-block text-left mx-auto lg:mx-0">
                     {valueProps.map(prop => (
                         <li key={prop} className="flex items-center gap-2 text-sm md:text-base">
                             <Check className="h-5 w-5 text-green-500" />
