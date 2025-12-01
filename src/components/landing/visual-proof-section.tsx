@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardContent } from "@/components/ui/card";
-import { PlayCircle } from "lucide-react";
 
 const testimonials = [
   { quote: "Parece impossível que eu fiz isso em casa." },
@@ -12,7 +11,6 @@ const testimonials = [
 export function VisualProofSection() {
   const proofImage1 = PlaceHolderImages.find(p => p.id === 'proof-1');
   const proofImage2 = PlaceHolderImages.find(p => p.id === 'proof-2');
-  const videoThumbnail = PlaceHolderImages.find(p => p.id === 'video-thumbnail');
 
   return (
     <section id="visual-proof" className="w-full py-12 md:py-24 lg:py-32">
@@ -21,7 +19,7 @@ export function VisualProofSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
             {proofImage1 && (
               <Image
-                src={"https://i.postimg.cc/nLM1SDCf/Design-sem-nome-(10).png"}
+                src={proofImage1.imageUrl}
                 alt={proofImage1.description}
                 data-ai-hint={proofImage1.imageHint}
                 width={600}
@@ -31,7 +29,7 @@ export function VisualProofSection() {
             )}
              {proofImage2 && (
               <Image
-                src={"https://i.postimg.cc/wBPQCjmW/Design-sem-nome-(11).png"}
+                src={proofImage2.imageUrl}
                 alt={proofImage2.description}
                 data-ai-hint={proofImage2.imageHint}
                 width={600}

@@ -3,8 +3,12 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Panetone Gourmet da May',
-  description: 'Aprenda a Criar O Panetone Gourmet Que Virou Obsessão Neste Natal',
+  title: 'Panetone Gourmet da May - O Curso Definitivo',
+  description: 'Aprenda a criar o panetone gourmet que virou obsessão neste Natal. Aulas passo a passo, receitas exclusivas e técnicas profissionais para panetones ultra cremosos.',
+  keywords: ['panetone gourmet', 'curso de panetone', 'receita de panetone', 'panetone trufado', 'panetone recheado', 'renda extra natal', 'confeitaria', 'receitas de natal'],
+  authors: [{ name: 'May' }],
+  creator: 'May',
+  publisher: 'May',
 };
 
 export default function RootLayout({

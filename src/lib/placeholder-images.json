@@ -2,45 +2,45 @@
   "placeholderImages": [
     {
       "id": "hero-panettone",
-      "description": "A beautiful gourmet panettone on a festive background.",
-      "imageUrl": "https://images.unsplash.com/photo-1509727090451-6052b6d62425?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5ldHRvbmUlMjBjaHJpc3RtYXN8ZW58MHx8fHwxNzYzODIyNjA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "panettone christmas"
+      "description": "Panetone gourmet com recheio cremoso em destaque, com um fundo festivo de Natal.",
+      "imageUrl": "https://i.postimg.cc/sgNVh4WZ/Generated-Image-November-22-2025-10-06PM.png",
+      "imageHint": "gourmet panettone"
     },
     {
       "id": "proof-1",
-      "description": "A close-up shot of a panettone slice showing its creamy filling.",
+      "description": "Uma foto de close-up de um panetone incrivelmente recheado, mostrando a cremosidade do recheio de chocolate.",
       "imageUrl": "https://i.postimg.cc/nLM1SDCf/Design-sem-nome-(10).png",
-      "imageHint": "panettone slice"
-    },
-    {
-      "id": "proof-2",
-      "description": "Another panettone overflowing with a delicious looking filling.",
-      "imageUrl": "https://i.postimg.cc/wBPQCjmW/Design-sem-nome-(11).png",
       "imageHint": "creamy panettone"
     },
     {
+      "id": "proof-2",
+      "description": "Outra foto de um panetone artesanal com recheio de ninho e nutella escorrendo.",
+      "imageUrl": "https://i.postimg.cc/wBPQCjmW/Design-sem-nome-(11).png",
+      "imageHint": "panettone filling"
+    },
+    {
       "id": "video-thumbnail",
-      "description": "A thumbnail for a video showing a panettone being cut.",
+      "description": "Thumbnail para um vídeo mostrando o corte de um panetone recheado, com um ícone de play.",
       "imageUrl": "https://images.unsplash.com/photo-1582072291448-5db861a71699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5ldHRvbmUlMjB2aWRlb3xlbnwwfHx8fDE3NjM4MjI2MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "panettone video"
     },
     {
       "id": "flavor-brigadeiro",
-      "description": "A gourmet panettone with rich brigadeiro filling.",
+      "description": "Panetone gourmet com uma cobertura generosa de brigadeiro e pedaços de KitKat.",
       "imageUrl": "https://i.postimg.cc/TwzcdJbR/1.png",
       "imageHint": "chocolate panettone"
     },
     {
       "id": "flavor-ninho",
-      "description": "A gourmet panettone with ninho and nutella filling.",
+      "description": "Panetone com recheio duplo de Brownie e creme de Ninho, com cobertura de Nutella.",
       "imageUrl": "https://i.postimg.cc/qMXGrnvJ/5.png",
-      "imageHint": "nutella panettone"
+      "imageHint": "brownie panettone"
     },
     {
       "id": "flavor-oreo",
-      "description": "A gourmet panettone with oreo cream filling.",
+      "description": "Panetone artesanal com um delicioso e crocante recheio de brigadeiro de pistache.",
       "imageUrl": "https://i.postimg.cc/MKjhm95D/4.png",
-      "imageHint": "oreo panettone"
+      "imageHint": "pistachio panettone"
     }
   ]
 }
