@@ -22,7 +22,7 @@
       "id": "video-thumbnail",
       "description": "Thumbnail para um vídeo mostrando o corte de um panetone recheado, com um ícone de play.",
       "imageUrl": "https://images.unsplash.com/photo-1582072291448-5db861a71699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5ldHRvbmUlMjB2aWRlb3xlbnwwfHx8fDE3NjM4MjI2MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "panettone video"
+      "imageHint": "panetone video"
     },
     {
       "id": "flavor-brigadeiro",
@@ -39,7 +39,7 @@
     {
       "id": "flavor-oreo",
       "description": "Panetone artesanal com um delicioso e crocante recheio de brigadeiro de pistache.",
-      "imageUrl": "https://i.postimg.cc/jjC6yFQj/6.png",
+      "imageUrl": "https://i.postimg.cc/MKjhm95D/4.png",
       "imageHint": "pistachio panettone"
     }
   ]
