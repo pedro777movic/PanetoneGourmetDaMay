@@ -9,7 +9,7 @@ import { ImpactSection } from "@/components/landing/impact-section";
 import { PricingSection } from "@/components/landing/pricing-section";
 import { ScarcitySection } from "@/components/landing/scarcity-section";
 import { VisualProofSection } from "@/components/landing/visual-proof-section";
-import { Separator } from "@/components/ui/separator";
+import { RecentPurchasePopup } from "@/components/landing/recent-purchase-popup";
 
 export default function Home() {
   return (
@@ -31,6 +31,7 @@ export default function Home() {
       </section>
       <Faq />
       <FinalCta />
+      <RecentPurchasePopup />
     </main>
   );
 }
