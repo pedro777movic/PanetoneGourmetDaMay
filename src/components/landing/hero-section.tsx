@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Crown } from "lucide-react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
@@ -18,7 +18,9 @@ export function HeroSection() {
     <section id="hero" className="relative w-full pt-32 pb-20 md:pt-40 lg:pt-48 bg-cover bg-center bg-[url('https://i.postimg.cc/BbRRGFSQ/3.png')]">
       <div className="absolute inset-0 bg-black/50" />
       <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 w-full text-center px-4">
-        <span className="text-2xl md:text-3xl lg:text-4xl font-headline font-bold text-white">Panetone Gourmet da May</span>
+        <div className="inline-block bg-black/30 backdrop-blur-sm p-4 rounded-lg border border-accent/30 shadow-lg">
+          <span className="text-2xl md:text-3xl lg:text-4xl font-headline font-bold text-white">Panetone Gourmet da May</span>
+        </div>
       </div>
       <div className="relative text-white">
         <div className="container px-4 md:px-6">
