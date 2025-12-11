@@ -8,7 +8,7 @@ import {
 const faqItems = [
     { 
         question: "O acesso é imediato?",
-        answer: "Sim. Assim que o pagamento for confirmado, o acesso ao APP é liberado automaticamente no seu e-mail."
+        answer: "Sim. Assim que o pagamento for confirmado, o acesso ao APP é liberado automaticamente na área de membros."
     },
     { 
         question: "Funciona no celular?",
