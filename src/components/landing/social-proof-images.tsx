@@ -1,5 +1,15 @@
+'use client';
+
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
 
 const socialProofImages = [
   PlaceHolderImages.find((p) => p.id === 'social-proof-1'),
@@ -19,19 +29,33 @@ export function SocialProofImages() {
             Veja o que nossas alunas estão dizendo sobre o curso.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-4 py-12 sm:grid-cols-3 sm:gap-6">
-          {socialProofImages.map((image) => (
-            <div key={image.id} className="flex justify-center">
-              <Image
-                src={image.imageUrl}
-                alt={image.description}
-                data-ai-hint={image.imageHint}
-                width={250}
-                height={250}
-                className="rounded-lg object-cover shadow-lg transition-transform duration-300 hover:scale-105"
-              />
-            </div>
-          ))}
+        <div className="mx-auto max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-4xl py-12">
+           <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full"
+          >
+            <CarouselContent>
+              {socialProofImages.map((image) => (
+                <CarouselItem key={image.id} className="md:basis-1/2 lg:basis-1/3 flex justify-center">
+                  <div className="p-1">
+                      <Image
+                        src={image.imageUrl}
+                        alt={image.description}
+                        data-ai-hint={image.imageHint}
+                        width={300}
+                        height={300}
+                        className="rounded-lg object-cover shadow-lg transition-transform duration-300 hover:scale-105 aspect-square"
+                      />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden sm:flex" />
+            <CarouselNext className="hidden sm:flex" />
+          </Carousel>
         </div>
       </div>
     </section>
