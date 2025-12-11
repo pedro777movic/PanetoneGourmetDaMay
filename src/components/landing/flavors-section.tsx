@@ -14,7 +14,7 @@ const flavors = [
     description: "O casamento mais viciante do Natal. Cremosidade no nível máximo. Na primeira colher, você entende o porquê.",
   },
   {
-    id: "flavor-oreo",
+    id: "flavor-pistachio",
     title: "💚 Brigadeiro de Pistache",
     description: "Crocante, cremoso e totalmente viciante. A combinação perfeita de textura + intensidade.",
   },

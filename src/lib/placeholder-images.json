@@ -37,10 +37,28 @@
       "imageHint": "brownie panettone"
     },
     {
-      "id": "flavor-oreo",
+      "id": "flavor-pistachio",
       "description": "Panetone artesanal com um delicioso e crocante recheio de brigadeiro de pistache.",
       "imageUrl": "https://i.postimg.cc/MKjhm95D/4.png",
       "imageHint": "pistachio panettone"
+    },
+    {
+      "id": "social-proof-1",
+      "description": "Primeira imagem de prova social.",
+      "imageUrl": "https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBwcm9vZnxlbnwwfHx8fDE3NjU0ODI2OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social proof"
+    },
+    {
+      "id": "social-proof-2",
+      "description": "Segunda imagem de prova social.",
+      "imageUrl": "https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBwcm9vZnxlbnwwfHx8fDE3NjU0ODI2OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social proof"
+    },
+    {
+      "id": "social-proof-3",
+      "description": "Terceira imagem de prova social.",
+      "imageUrl": "https://images.unsplash.com/photo-1553830591-d8632a99e6ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2NpYWwlMjBwcm9vZnxlbnwwfHx8fDE3NjU0ODI2OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social proof"
     }
   ]
 }

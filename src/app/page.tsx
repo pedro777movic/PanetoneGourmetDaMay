@@ -10,6 +10,7 @@ import { PricingSection } from "@/components/landing/pricing-section";
 import { ScarcitySection } from "@/components/landing/scarcity-section";
 import { VisualProofSection } from "@/components/landing/visual-proof-section";
 import { RecentPurchasePopup } from "@/components/landing/recent-purchase-popup";
+import { SocialProofImages } from "@/components/landing/social-proof-images";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <div className="w-full bg-secondary/50 py-12 md:py-20">
         <PricingSection />
       </div>
+      <SocialProofImages />
       <GuaranteeSection />
       <section id="ai-suggester" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/50">
         <div className="container px-4 md:px-6">
