@@ -26,7 +26,7 @@ export function SocialProofImages() {
             +1.247 Alunas Satisfeitas
           </h2>
           <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
-            Veja o que nossas alunas estão dizendo sobre o curso.
+            Veja o que as notícias dizem sobre a febre natalina do momento
           </p>
         </div>
         <div className="mx-auto max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-4xl py-12">
